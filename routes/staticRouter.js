@@ -23,18 +23,3 @@ router.get("/login",(req,res)=>{
 
 export default router;
 
-// import express from "express";
-// import { handleSignUp, handleLogin } from "../Controllers/user1.js";
-// import { restrictToLoggedinUserOnly } from "../Middleware/auth.js";
-
-// const router = express.Router();
-
-// router.post("/", handleSignUp);
-// router.post("/login", handleLogin);
-
-// // प्रोटेक्टेड रूट का उदाहरण
-// router.get("/dashboard", restrictToLoggedinUserOnly, (req, res) => {
-//     res.send("Welcome, " + req.user.email);
-// });
-
-// export default router;
