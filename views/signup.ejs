@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="/styles/auth.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-title">SignUp to get Short URLs</div>
+        <form class="auth-form" action="/user" method="post">
+            <div>
+                <label>Enter Your Name</label>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <div>
+                <label>Enter Your Email</label>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label>Enter Your Password</label>
+                <input type="password" name="password" placeholder="Enter Your Password" required>
+            </div>
+            <button type="submit">SignUp</button>
+        
+        </form>
+    </div>
+</body>
+</html>
